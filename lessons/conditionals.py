@@ -36,25 +36,69 @@
 # else:
 #     print("its ok")
 
-user = "admin"
+# user = "admin"
 
-if user not in ("admin", "user", "root"):
-    print("welcome")
-else:
-    print("denied")
+# if user not in ("admin", "user", "root"):
+#     print("welcome")
+# else:
+#     print("denied")
 
-deposit = 100
-password = "password"
+# deposit = 100
+# password = "password"
 
-if (0 < deposit < 100) and password != "password":
+# if (0 < deposit < 100) and password != "password":
 
-EXERCISE:
-- weight converter
-- input for weight
-- input for unit (KGS or LBS)
-- logic: checking the entered unit
-- logic: calculate the converted value. 
-- print the result (nice formatting)
-- Error handling for invalid unit type 
-- optional stretch: error handle for weight input/conversion. 
+# EXERCISE:
+# - weight converter
+# - input for weight
+# - input for unit (KGS or LBS)
+# - logic: checking the entered unit
+# - logic: calculate the converted value. 
+# - print the result (nice formatting)
+# - Error handling for invalid unit type 
+# - optional stretch: error handle for weight input/conversion. 
+
+
+# try:
+#     result = 10/0
+#     print(resultz)
+# except ZeroDivisionError as e:
+#     print(f"[ERROR] - cant divide by zero: {str(e)}")
+# except NameError as e:
+#     print("name error caught")
+# except:
+#     print(f"[ERROR] - generic error caught")
+# finally: 
+#     print("always gets triggered - use for clean up + logging")
+     
+# result = 10/0
+
+# import sys
+
+# while True:
+#     try:
+#         weight = float(input("Enter weight: ")).abs()
+#         break
+#     except ValueError:
+#         print(f"[ERROR] - invalid input pls enter a numeric value for weight")
+#         sys.exit()
+
+# while True:
+#     unit = input("ENter the unti K or L: ").upper()
+#     if unit == "K":
+#         x = weight * 2.2
+#         print(f"converted weight is {x}")
+#         break
+#     elif unit == "L":
+#         x = weight / 2.2
+#         print(f"converted weight is {x}")
+#         break
+#     else:
+#         print("ENTER L OR K!!!!")
+
+
+
+
+
+
 
