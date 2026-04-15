@@ -10,7 +10,7 @@ Major:
 External input w/ option:
      - default list of attempts only for backup. 
      cli args:
-        --input - user to choose file to load for the data. 
+        --input - user to choose file to load for the data USE format provided in input-file.txt  
         (arg-parse)
 
 Minor:
