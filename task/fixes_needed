@@ -1,0 +1,32 @@
+Fixed needed:
+
+Major:
+1) Timestamp:
+        - format: UTC with zulu time.  
+        - TS per event - not batching. 
+2) One event per line - bring it into the loop.
+3) Change append only logging.  
+
+External input w/ option:
+     - default list of attempts only for backup. 
+     cli args:
+        --input - user to choose file to load for the data. 
+        (arg-parse)
+
+Minor:
+- fix/remove imports/vars/general cleanup. 
+- fix naming convention throughout. 
+- comments, doc-strings, full type annotation. 
+- improve cli output (or get rid of bits)
+- context manager for the file (close it!)
+- Light Error handling (think about exit codes)
+- Main loop improvements harden the code. 
+- ID per event (research and apply what ever solition you want)
+- add team name to log
+- Add know/unknown flag to log.
+- break up into small functions.
+- basic data validation. 
+- headers for each column of data. 
+
+
+
