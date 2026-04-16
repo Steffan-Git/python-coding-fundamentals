@@ -23,10 +23,12 @@ Minor:
 - Main loop improvements harden the code. 
 - ID per event (research and apply what ever solition you want)
 - add team name to log
-- Add know/unknown flag to log.
+- Add known/unknown flag to log.
 - break up into small functions.
 - basic data validation. 
 - headers for each column of data. 
+
+ALSO: a run guard!! 
 
 
 
