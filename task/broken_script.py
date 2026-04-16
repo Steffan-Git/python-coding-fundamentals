@@ -41,5 +41,6 @@ def doStuff():
         
 
     print("done. output file maybe created:", OutputFile)
-
-doStuff()
+    
+if __name__ == "__main__":
+    doStuff()

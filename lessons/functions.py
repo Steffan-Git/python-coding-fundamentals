@@ -78,6 +78,7 @@
 #         return 1
 #     else:
 #         return n * factorial(n - 1)
+
 # print(factorial(5))  # Output: 120 
      
 # frame:  - store local variables and function state.
@@ -112,7 +113,6 @@
 #     return x * x
 
 # def apply_function(func, value):
-
 #     return func(value)
 
 # print(apply_function(square, 5))  # Output: 25
@@ -144,10 +144,10 @@
 #     print(f"Hello, {name}!")
     
 # print(greet.__doc__)  # Output: Returns a greeting message.
-# greet(  "Alice") 
+# greet("Alice") 
 
-# from functools import wraps, lru_cache
-# import time
+from functools import wraps, lru_cache
+import time
 
 # def simle_wrapper(func):
 #     @wraps(func)
