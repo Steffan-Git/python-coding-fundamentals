@@ -1,0 +1,4 @@
+event_id=8c68481babe749faa624dba2d58c672f time=2026-04-16T11:17:54Z system=auth_service user_id=user-100 user_status=known outcome=success
+event_id=5046577b305f4e6191819e6beacdc55f time=2026-04-16T11:17:54Z system=auth_service user_id=user-200 user_status=known outcome=failure
+event_id=171467c9d17049e9b3ce270c8e2966dd time=2026-04-16T11:17:54Z system=auth_service user_id=user-100 user_status=known outcome=failure
+event_id=40a56f3e2bec4ef7a6cc47481bb6d434 time=2026-04-16T11:17:54Z system=auth_service user_id=user-999 user_status=unknown outcome=success
